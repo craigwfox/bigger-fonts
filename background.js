@@ -2,10 +2,12 @@ const CSS = `body {
   background: #efefef;
   color: #222;
 }
-h1,h2,h3,h4,h5,h6, p {
+h1, h2, h3, h4, h5, h6, p {
   color: #222;
-  font-size: 22px !important;
   font-family: Georgia, serif !important;
+}
+p {
+  font-size: 22px !important;
   line-height: 1.4 !important;
 }
 `;
