@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Makes p tags bigger.",
   "icons": {
-    "48": "icons/big-font-48.png"
+    "48": "icons/big-font-48.svg"
   },
 
   "permissions": [
@@ -13,7 +13,7 @@
   ],
 
   "browser_action": {
-    "default_icon": "icons/big-font-32-off.png",
+    "default_icon": "icons/big-font-32-off.svg",
     "default_title": "Bookmark it!"
   },
 
