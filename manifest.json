@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Big font",
+  "version": "1.0",
+  "description": "Makes p tags bigger.",
+  "icons": {
+    "48": "icons/big-font-48.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/big-font-32-off.png",
+    "default_title": "Bookmark it!"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+}
+}
